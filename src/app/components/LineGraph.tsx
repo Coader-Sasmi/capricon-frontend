@@ -17,7 +17,7 @@ export default function LineGraph({}: Props) {
     (async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/get-json/1727359804374-response.json`
+          `https://capricon-backend.onrender.com/get-json/1727359804374-response.json`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
